@@ -6,6 +6,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * Response bean to be sent to client
+ */
 @Data
 @ApiModel
 public class CalculatedResponseBean implements Serializable {

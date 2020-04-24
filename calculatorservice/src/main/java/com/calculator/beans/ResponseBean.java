@@ -4,6 +4,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * ResponseBean to be sent to client. Should contain valid result
+ */
 @Data
 @ApiModel
 public class ResponseBean {

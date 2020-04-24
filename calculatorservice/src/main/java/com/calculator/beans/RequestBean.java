@@ -5,6 +5,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * RequestBean to be received from the client
+ */
 @ApiModel(description = "Calculation Request Object")
 @Data
 public class RequestBean {

@@ -1,5 +1,8 @@
 package com.calculator.constant;
 
+/**
+ * Response code constants
+ */
 public enum ResponseEnum {
 	
 	

@@ -9,6 +9,9 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+/**
+ * requestBean for client request
+ */
 @ApiModel(description = "Calculator Request Object")
 @Data
 public class CalcRequestBean implements Serializable {

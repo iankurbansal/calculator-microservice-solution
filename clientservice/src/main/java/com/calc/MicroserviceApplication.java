@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;
 
+/**
+ * Entry point for spring boot client application
+ */
 @EnableFeignClients
 @SpringBootApplication
 public class MicroserviceApplication {
